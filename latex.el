@@ -8177,7 +8177,7 @@ function would return non-nil and `(match-string 1)' would return
   (set (make-local-variable 'TeX-style-hook-dialect) TeX-dialect)
 
   (require 'outline)
-  (set (make-local-variable 'outline-level) #'LaTeX-outline-level)
+  (set (make-local-variable 'outline-level) #'latex-outline-level)
   ;; Moved after `run-mode-hooks'. (bug#65750)
   ;; (set (make-local-variable 'outline-regexp) (LaTeX-outline-regexp t))
   ;; (when (boundp 'outline-heading-alist)
